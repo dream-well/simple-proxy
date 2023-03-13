@@ -1,0 +1,12 @@
+{
+  "name": "simple-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dream-well/simple-proxy.git",
+  "author": "dream-well <dreamwell506@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
