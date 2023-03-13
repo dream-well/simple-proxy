@@ -12,7 +12,7 @@ const target_URL = 'http://localhost:3000';
 app.use(createProxyMiddleware({
     target: target_URL,
     changeOrigin: true,
-    selfHandleResponse: true,
+    selfHandleResponse: false,
 }));
 
 if(process.env.CERTIFICATE_PATH) {
